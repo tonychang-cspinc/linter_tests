@@ -12,7 +12,7 @@ def find_most(arr: list, top_num: int):
     ht = {k:arr.count(k) for k in set(arr)}
     z = []
     z.append(max(ht))
-    for i in top_num:
+    for i in range(top_num):
         ht.pop(z[0], None)
         z.append(max(ht))
     return z
