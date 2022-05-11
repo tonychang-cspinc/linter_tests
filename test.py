@@ -24,4 +24,3 @@ if __name__ == "__main__":
     k = 2
     most = find_most(arr, k)
     print(most)
-
